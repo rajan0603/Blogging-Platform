@@ -91,24 +91,6 @@ function Post() {
             />
           </div>
           <div>
-            <label className="block mb-1 font-semibold">Picture:</label>
-            <input
-              type="file"
-              accept="image/*"
-              onChange={handleImageChange}
-              className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-indigo-500"
-            />
-          </div>
-          {formData.picture && (
-            <div>
-              <img
-                src={formData.picture}
-                alt="Preview"
-                className="w-full mt-2 rounded-lg"
-              />
-            </div>
-          )}
-          <div>
             <label className="block mb-1 font-semibold">Content:</label>
             <textarea
               name="content"

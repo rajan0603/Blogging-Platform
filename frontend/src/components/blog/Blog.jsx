@@ -95,7 +95,6 @@ function Blog() {
                   <p className="text-lg font-semibold">{blog.name}</p>
                 </div>
                 <h3 className="text-xl font-semibold mt-2">{blog.title}</h3>
-                {/* {blog.file && <img src={blog.file} alt="Blog" className="my-2 rounded-md object-cover h-48 w-full" />} */}
                 <p className="text-gray-700 mt-2">{blog.content}</p>
                 <div className="mt-4">
                   <p className="text-gray-600">Comments: {blog.comments && blog.comments.length}</p>
