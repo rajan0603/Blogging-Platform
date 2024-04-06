@@ -15,14 +15,14 @@ const uri = process.env.MONGODB_URI
 app.use(express.json());
 app.use(bodyParser.json());
 
-// app.use(cors());
-const corsOptions = {
-    origin: 'http://localhost:3000', // Allow requests from this origin
-    credentials: true, // Allow credentials (cookies, authorization headers, etc.)
-  };
+app.use(cors());
+// const corsOptions = {
+//     origin: 'http://localhost:3000', // Allow requests from this origin
+//     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
+//   };
   
-app.use(cors(corsOptions));
-// app.options("*", cors());
+// app.use(cors(corsOptions));
+app.options("*", cors());
    
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
