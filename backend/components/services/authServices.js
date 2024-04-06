@@ -58,3 +58,15 @@ module.exports = {register, login};
 
 // "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZjQ2ZjE5MDZkMTI5OTE2ZDRjNjI4YiIsImlhdCI6MTcxMDUxODA3OH0.4hdqvBCK1IxPSsw1nj0zU8G1io2b_FEchoZnaDBzrS4"
 
+
+// {
+//     "title": "movie1",
+//     "director": "director1",
+//     "genre": "genre1",
+//     "releaseYear": 1999,
+//     "description": "description1",
+//     "_id": "65f697176ca64b29ad432a04",
+//     "createdAt": "2024-03-17T07:09:11.025Z",
+//     "updatedAt": "2024-03-17T07:09:11.025Z",
+//     "__v": 0
+// }
